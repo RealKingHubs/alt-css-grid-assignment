@@ -81,3 +81,17 @@ aside {
   text-align: left;
 }
 
+/*aspiration set*/
+main {
+  grid-area: main;
+  background: skyblue;
+  border-radius: var(--main-redius);
+}
+
+.aspirations {
+  padding: 20px;
+  border-radius: var(--main-redius);
+  height: 30vh;
+  padding-bottom: 100px;
+  text-align: left;
+}
