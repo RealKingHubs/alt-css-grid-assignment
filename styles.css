@@ -1,0 +1,61 @@
+/*variables*/
+:root {
+  --main-padding: 20px 30px;
+  --main-redius: 20px;
+}
+
+/*body, grid, h2 set*/
+body {
+  border-radius: var(--main-redius);
+}
+.container {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "header header header "
+    "aside main main";
+  grid-gap: 0.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  height: 100vh;
+  border-radius: var(--main-redius);
+}
+
+.subhead {
+  justify-self: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/*profile set*/
+header {
+  grid-area: header;
+  background: skyblue;
+  height: 65vh;
+  border-radius: var(--main-redius);
+}
+
+.about {
+  position: absolute;
+  width: 55%;
+  left: 15%;
+  padding: var(--main-padding);
+  margin-top: -10px;
+  border-radius: var(--main-redius);
+  align-content: space-around;
+}
+
+img {
+  width: 201px;
+  height: 207px;
+  border-radius: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.paragraph {
+  margin-top: 70px;
+}
