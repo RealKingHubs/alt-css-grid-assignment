@@ -59,3 +59,25 @@ img {
 .paragraph {
   margin-top: 70px;
 }
+
+
+/*my hobby set*/
+aside {
+  grid-area: aside;
+  background: skyblue;
+  border-radius: var(--main-redius);
+}
+
+.hobbies {
+  padding: 20px;
+  justify-items: start;
+  border-radius: var(--main-redius);
+  height: 30vh;
+  padding-bottom: 100px;
+}
+
+.list {
+  justify-self: left;
+  text-align: left;
+}
+
